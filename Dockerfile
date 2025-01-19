@@ -10,8 +10,8 @@ ADD . /app
 # Install any needed packages specified in requirements.txt
 # RUN pip install -r requirements.txt
 
-# Make port 8080 available to the world outside this container
-EXPOSE 8080
+# Make port 10000 available to the world outside this container
+EXPOSE 10000
 
 # Define environment variable
 # ENV NAME Tuan
