@@ -5,8 +5,8 @@ from datetime import datetime
 hostName = "0.0.0.0"
 serverPort = 10000
 
-current_time = datetime.now().strftime("%M:%H %d/%m/%Y")
-current_time_print_msg = "<p>Today is" + current_time + "</p>"
+current_time = datetime.now().strftime("%H:%M %d/%m/%Y")
+current_time_print_msg = "<p>Today is " + current_time + "</p>"
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
